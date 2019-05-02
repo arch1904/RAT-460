@@ -14,7 +14,7 @@ def send_commands(conn):
             client_response = str(conn.recv(1024), "utf-8")
             print(client_response, end="")
             
-bind_ip = "52.14.210.153"
+bind_ip = "ec2-52-14-210-153.us-east-2.compute.amazonaws.com"
 bind_port = 24123
 serv_add = (bind_ip , 24123)
 
