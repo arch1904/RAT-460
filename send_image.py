@@ -7,7 +7,7 @@ from random import randint
 def send_image(img_name):
     image = img_name
 
-    HOST = '127.0.0.1'
+    HOST = 'ec2-52-14-210-153.us-east-2.compute.amazonaws.com'
     PORT = 6666
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
